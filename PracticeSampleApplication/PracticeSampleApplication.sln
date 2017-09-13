@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP.NetDemo", "ASP.NetDemo", "{B019EE98-EC0B-43C2-AEE0-7E68E0AC4BA2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPDotNetDemo", "ASPDotNetDemo", "{B019EE98-EC0B-43C2-AEE0-7E68E0AC4BA2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVCDemo", "MVCDemo", "{0639EDD1-CFE0-47C1-8EEF-EA409676C14B}"
 EndProject
@@ -11,9 +11,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularDemo", "AngularDemo"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServicesDemo", "ServicesDemo", "{5DB965CA-2C0B-4E9D-BCE1-5855B9E1F0D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NetSampleDemo", "ASP.NetSampleDemo\ASP.NetSampleDemo.csproj", "{5E20E272-E801-4913-A21B-B2B4DF2DB2A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPDotNetSampleDemo", "ASPDotNetSampleDemo\ASPDotNetSampleDemo.csproj", "{5E20E272-E801-4913-A21B-B2B4DF2DB2A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NetSampleDemo.Tests", "ASP.NetSampleDemo.Tests\ASP.NetSampleDemo.Tests.csproj", "{C752CCE5-E2F7-4DAC-93BC-656BB3295AC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPDotNetSampleDemo.Tests", "ASPDotNetSampleDemo.Tests\ASPDotNetSampleDemo.Tests.csproj", "{C752CCE5-E2F7-4DAC-93BC-656BB3295AC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFBF5CC5-86F3-42FA-8E37-883EA34595A2}"
+	ProjectSection(SolutionItems) = preProject
+		web.config = web.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
