@@ -1,2 +1,2 @@
 # VisualStudioSampleProjects
-VisualStudioSampleProjects for practicing ASP.Net, MVC, Services and alot
+VisualStudioSampleProjects for practicing ASP.Net, MVC, Services and alot.
