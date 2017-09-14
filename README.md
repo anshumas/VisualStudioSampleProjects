@@ -1,2 +1,3 @@
-# VisualStudioSampleProjects
+# VisualStudioSampleProjects-Under Development
 VisualStudioSampleProjects for practicing ASP.Net, MVC, Services and alot.
+Under Development-will be available soon......
