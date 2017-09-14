@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -12,6 +13,13 @@ namespace ASPDotNetSampleDemo
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void btnLogin_Click(object sender, EventArgs e)
+        {
+            DataTable dt= DataSourcesConnection.Login(username.Text, password.Text);
+            if (dt.Rows.Count > 0)
+                Response.Redirect("/home/");
         }
     }
 }
