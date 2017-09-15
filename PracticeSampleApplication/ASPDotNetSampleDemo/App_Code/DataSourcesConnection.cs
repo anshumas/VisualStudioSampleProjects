@@ -22,7 +22,7 @@ namespace ASPDotNetSampleDemo
         }
         private static bool CheckConnection(string sqlConnectionString)
         {
-            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"c:\\users\\ansingh\\documents\\visual studio 2015\\Projects\\WebApplication1\\WebApplication1\\App_Data\\Database1.mdf\";Integrated Security=True");
+            SqlConnection con = new SqlConnection(sqlConnectionString);
             try
             {
                 con.Open();
@@ -75,7 +75,7 @@ namespace ASPDotNetSampleDemo
 
         public static DataTable Login(string username, string password)
         {
-            SqlConnection conn=new SqlConnection();
+            SqlConnection conn = new SqlConnection();
             try
             {
                 DataTable dtResult = new DataTable();
@@ -90,7 +90,8 @@ namespace ASPDotNetSampleDemo
 
                 throw;
             }
-            finally {
+            finally
+            {
                 CloseConnection(conn);
             }
 

@@ -3,22 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPDotNetDemo", "ASPDotNetDemo", "{B019EE98-EC0B-43C2-AEE0-7E68E0AC4BA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPDotNetSampleDemo", "ASPDotNetSampleDemo\ASPDotNetSampleDemo.csproj", "{AB2B9117-0951-4FFF-A733-D76464905480}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVCDemo", "MVCDemo", "{0639EDD1-CFE0-47C1-8EEF-EA409676C14B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularDemo", "AngularDemo", "{C515AFC5-9944-424F-B1C2-D54A0F5AD187}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularDemo", "AngularDemo", "{7CED1A33-3813-4C26-A5A4-042890580D9D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPDotNetDemo", "ASPDotNetDemo", "{DFA99F94-5B02-49E4-A41E-A59A639F12E1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServicesDemo", "ServicesDemo", "{5DB965CA-2C0B-4E9D-BCE1-5855B9E1F0D7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVCDemo", "MVCDemo", "{00C5104F-A206-4F83-B198-96717E2FAB77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPDotNetSampleDemo", "ASPDotNetSampleDemo\ASPDotNetSampleDemo.csproj", "{5E20E272-E801-4913-A21B-B2B4DF2DB2A3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServicesDemo", "ServicesDemo", "{C72592F1-23E4-4D70-BB34-C0ACE75F900E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPDotNetSampleDemo.Tests", "ASPDotNetSampleDemo.Tests\ASPDotNetSampleDemo.Tests.csproj", "{C752CCE5-E2F7-4DAC-93BC-656BB3295AC4}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFBF5CC5-86F3-42FA-8E37-883EA34595A2}"
-	ProjectSection(SolutionItems) = preProject
-		web.config = web.config
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPDotNetSampleDemo.Tests", "ASPDotNetSampleDemo.Tests\ASPDotNetSampleDemo.Tests.csproj", "{2177D025-23CB-49B9-8D88-B7128B289E0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,20 +21,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E20E272-E801-4913-A21B-B2B4DF2DB2A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E20E272-E801-4913-A21B-B2B4DF2DB2A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E20E272-E801-4913-A21B-B2B4DF2DB2A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E20E272-E801-4913-A21B-B2B4DF2DB2A3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C752CCE5-E2F7-4DAC-93BC-656BB3295AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C752CCE5-E2F7-4DAC-93BC-656BB3295AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C752CCE5-E2F7-4DAC-93BC-656BB3295AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C752CCE5-E2F7-4DAC-93BC-656BB3295AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2B9117-0951-4FFF-A733-D76464905480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2B9117-0951-4FFF-A733-D76464905480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2B9117-0951-4FFF-A733-D76464905480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2B9117-0951-4FFF-A733-D76464905480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2177D025-23CB-49B9-8D88-B7128B289E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2177D025-23CB-49B9-8D88-B7128B289E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2177D025-23CB-49B9-8D88-B7128B289E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2177D025-23CB-49B9-8D88-B7128B289E0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5E20E272-E801-4913-A21B-B2B4DF2DB2A3} = {B019EE98-EC0B-43C2-AEE0-7E68E0AC4BA2}
-		{C752CCE5-E2F7-4DAC-93BC-656BB3295AC4} = {B019EE98-EC0B-43C2-AEE0-7E68E0AC4BA2}
+		{AB2B9117-0951-4FFF-A733-D76464905480} = {DFA99F94-5B02-49E4-A41E-A59A639F12E1}
+		{2177D025-23CB-49B9-8D88-B7128B289E0F} = {DFA99F94-5B02-49E4-A41E-A59A639F12E1}
 	EndGlobalSection
 EndGlobal
